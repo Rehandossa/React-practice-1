@@ -1,0 +1,9 @@
+git init 
+
+git remote add origin https://github.com/Rehandossa/React-practice-1
+
+git add . 
+
+git commit -m"intial commit"
+
+git push -u origin master
