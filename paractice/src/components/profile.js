@@ -1,12 +1,12 @@
 import React from "react";
 
-function Profile() {
+function Profile({name,pic,About}) {
     return (
         <div>
             <div className="profile">
-                <p className="name">Rehan</p>
-                <img className="Profile"src="https://img.lovepik.com/photo/48007/1949.jpg_wh860.jpg" alt=""/>
-                <p className="about">I AM A DEVELOPER</p>
+                <p className="name">MY NAME IS {name}</p>
+                <img className="Profile"src={pic} alt=""/>
+                <p className="about">{About}</p>
             </div>
         </div>
    );    
