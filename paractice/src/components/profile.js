@@ -5,11 +5,11 @@ function Profile() {
         <div>
             <div className="profile">
                 <p className="name">Rehan</p>
-                <img className="Profile"src="https://cdn.pixabay.com/photo/2024/02/29/13/03/ai-generated-8604396_640.png" alt=""/>
+                <img className="Profile"src="https://img.lovepik.com/photo/48007/1949.jpg_wh860.jpg" alt=""/>
                 <p className="about">I AM A DEVELOPER</p>
             </div>
         </div>
-   );
+   );    
 }
 
 export default Profile;
