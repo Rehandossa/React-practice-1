@@ -3,6 +3,7 @@ import Profile from "./components/profile";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import React, { useState, useEffect } from "react";
+import calculator from '/components/calculator'
 
 function App() {
   const initialdata =({
